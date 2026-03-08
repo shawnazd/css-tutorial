@@ -1,8 +1,9 @@
-#head1, #para2 {
-    color: blue;
-    
+#main-heading,
+.secondary-heading {
+  color: rgb(244, 15, 15);
 }
 
-.head2, .para1{
-    color: brown;
+.paragraph-one,
+#paragraph-two {
+  color: blue;
 }
