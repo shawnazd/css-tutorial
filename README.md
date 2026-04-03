@@ -1,4 +1,3 @@
-```markdown
 # 🎨 CSS Tutorial
 
 > A personal journey into the world of CSS — one style at a time.
@@ -72,5 +71,4 @@ This repository is open for learning and educational purposes only. Feel free to
 
 ---
 
-> *"CSS is like painting. Easy to start, a lifetime to master."*
-```
+> _"CSS is like painting. Easy to start, a lifetime to master."_
