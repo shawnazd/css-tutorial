@@ -1,81 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSS Error Examples</title>
-<style>
-  /* 1. Missing Semicolons */
-  .missing-semicolon {
-    color: red   /* Missing semicolon */
-    background-color: yellow;
-  }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Error Examples</title>
+    <style>
+      /* 1. Missing Semicolons */
+      .missing-semicolon {
+        color: red   /* Missing semicolon */
+        background-color: yellow;
+      }
 
-  /* 2. Invalid Property Names */
-  .invalid-property {
-    colr: blue; /* Invalid property, should be 'color' */
-    font-size: 16px;
-  }
+      /* 2. Invalid Property Names */
+      .invalid-property {
+        colr: blue; /* Invalid property, should be 'color' */
+        font-size: 16px;
+      }
 
-  /* 3. Invalid Values */
-  .invalid-value {
-    width: -100px; /* Invalid value */
-    color: green;
-  }
+      /* 3. Invalid Values */
+      .invalid-value {
+        width: -100px; /* Invalid value */
+        color: green;
+      }
 
-  /* 4. Unclosed Braces */
-  /* Notice: This is intentionally broken and won't render properly */
-  .unclosed-brace {
-    padding: 20px;
-    margin: 10px;
-  /* Missing closing brace here */
+      /* 4. Unclosed Braces */
+      /* Notice: This is intentionally broken and won't render properly */
+      .unclosed-brace {
+        padding: 20px;
+        margin: 10px;
+      /* Missing closing brace here */
 
-  /* 5. Extra Colons or Braces */
-  .extra-colon {
-    color:: blue; /* Extra colon breaks the rule */
-  }
+      /* 5. Extra Colons or Braces */
+      .extra-colon {
+        color:: blue; /* Extra colon breaks the rule */
+      }
 
-  /* For comparison: a correct style */
-  .correct {
-    color: white;
-    background-color: black;
-    padding: 10px;
-    margin: 5px;
-  }
-</style>
-</head>
-<body>
-<h1>CSS Error Examples</h1>
+      /* For comparison: a correct style */
+      .correct {
+        color: white;
+        background-color: black;
+        padding: 10px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Error Examples</h1>
 
-<section>
-  <h2>1. Missing Semicolons</h2>
-  <p class="missing-semicolon">This text should be red on yellow, but the missing semicolon breaks it.</p>
-</section>
+    <section>
+      <h2>1. Missing Semicolons</h2>
+      <p class="missing-semicolon">
+        This text should be red on yellow, but the missing semicolon breaks it.
+      </p>
+    </section>
 
-<section>
-  <h2>2. Invalid Property Names</h2>
-  <p class="invalid-property">This text tries to use 'colr' instead of 'color'. Only valid properties apply.</p>
-</section>
+    <section>
+      <h2>2. Invalid Property Names</h2>
+      <p class="invalid-property">
+        This text tries to use 'colr' instead of 'color'. Only valid properties
+        apply.
+      </p>
+    </section>
 
-<section>
-  <h2>3. Invalid Values</h2>
-  <p class="invalid-value">This text uses a negative width which is invalid.</p>
-</section>
+    <section>
+      <h2>3. Invalid Values</h2>
+      <p class="invalid-value">
+        This text uses a negative width which is invalid.
+      </p>
+    </section>
 
-<section>
-  <h2>4. Unclosed Braces</h2>
-  <p class="unclosed-brace">This rule is missing a closing brace, so it may not work at all.</p>
-</section>
+    <section>
+      <h2>4. Unclosed Braces</h2>
+      <p class="unclosed-brace">
+        This rule is missing a closing brace, so it may not work at all.
+      </p>
+    </section>
 
-<section>
-  <h2>5. Extra Colons or Braces</h2>
-  <p class="extra-colon">This text has a typo with double colon.</p>
-</section>
+    <section>
+      <h2>5. Extra Colons or Braces</h2>
+      <p class="extra-colon">This text has a typo with double colon.</p>
+    </section>
 
-<section>
-  <h2>6. Correct CSS for Comparison</h2>
-  <p class="correct">This text is styled correctly.</p>
-</section>
-
-</body>
+    <section>
+      <h2>6. Correct CSS for Comparison</h2>
+      <p class="correct">This text is styled correctly.</p>
+    </section>
+  </body>
 </html>
